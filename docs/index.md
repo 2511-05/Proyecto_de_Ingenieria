@@ -1,15 +1,3 @@
-# Introducción a la Mecatrónica
+# Proyecto de Ingeniería
 
-Bienvenido al repositorio de prácticas del curso. Aquí encontrarás el reporte y desarrollo de cada una de nuestras sesiones laboratorio.
-Integrantes:
-- Diana Arellano Mendoza
-- Andrea Vera Fuentes
-
-## Contenido
-
-* **Práctica 1:** Sesión 1
-* **Práctica 2:** Práctica 2
-* **Práctica 3:** Práctica 3
-* **Práctica 4:** Práctica 4
-* **Práctica 5:** Práctica 5
-* **Práctica 6:** Práctica 6
+Bienvenido a la documentación oficial del repositorio de Proyecto de Ingeniería.
