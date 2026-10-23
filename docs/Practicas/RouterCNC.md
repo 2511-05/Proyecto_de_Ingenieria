@@ -151,13 +151,13 @@ A continuación se presentan las evidencias visuales del proceso completo realiz
 ---
 
 ### 8.5. Segundo Corte: Proyecto Mariposa
-![Mariposa 2D](../img/mariposa2d.jpeg)  width="70%">  
+![Mariposa 2D](../img/mariposa2d.jpeg)  
 *Figura 6a: Visualización en 2D del modelo de la mariposa en VCarve Pro.*
 
-![Visualización Mariposa 3D](../img/mariposa3d.jpeg)  width="70%">  
+![Visualización Mariposa 3D](../img/mariposa3d.jpeg)   
 *Figura 6b: Visualización en 3D de la simulación de corte de la mariposa en VCarve Pro.*
 
-![Proceso de corte Mariposa](../img/cortemariposa.jpeg)  width="70%">  
+![Proceso de corte Mariposa](../img/cortemariposa.jpeg)   
 *Figura 6c: Proceso de corte de la mariposa en la máquina CNC.*
 
 ---
