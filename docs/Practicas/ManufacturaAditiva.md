@@ -98,19 +98,21 @@ Esta sesión permitió comprender a detalle las ventajas operativas y las limita
 A continuación se muestran los registros gráficos recopilados durante la práctica de impresión 3D en las instalaciones del FabLab Puebla de la Ibero Puebla.
 
 ### 8.1. Configuración de Parámetros en el Software de Laminado (*Slicer*)
-<img src="../../imVS/impresion_slicer.png" alt="Configuración de laminado 3D" width="70%">  
+![Configuración del programa](../img/Sketch.jpeg)  
+*Figura 1: Vista previa del proceso de laminado (*slicing*), mostrando las trayectorias de relleno, paredes y estructuras de soporte.*
+![Configuración del programa](../img/Articulacion.jpeg)  
 *Figura 1: Vista previa del proceso de laminado (*slicing*), mostrando las trayectorias de relleno, paredes y estructuras de soporte.*
 
 ---
 
 ### 8.2. Proceso de Impresión FDM en Operación
-<img src="../../imVS/impresion_maquina.JPG" alt="Impresora 3D trabajando" width="70%">  
+![Configuración del programa](../img/Procesoimpresion.jpeg) 
 *Figura 2: Deposición de la primera capa de material termoplástico sobre la superficie de impresión nivelada.*
 
 ---
 
 ### 8.3. Mecanismo Print-in-Place Finalizado
-<img src="../../imVS/impresion_resultado.JPG" alt="Pieza impresa terminada" width="70%">  
+![Configuración del programa](../img/Enderman.jpeg)  
 *Figura 3: Resultado del mecanismo articulado fabricado en una sola pieza, comprobando la movilidad y el espacio libre entre eslabones.*
 
 ```
