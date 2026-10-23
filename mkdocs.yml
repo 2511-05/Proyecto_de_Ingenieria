@@ -26,3 +26,5 @@ extra_javascript:
 
 nav:
   - Inicio: index.md
+  - Prácticas:
+    - Práctica 1: Practicas/Practica1.md
