@@ -75,24 +75,29 @@ Esta práctica nos permitió conectar el diseño digital paramétrico con la rea
 
 A continuación se muestran los registros gráficos capturados durante la práctica en el IDIT de la Ibero Puebla, desde el modelado tridimensional hasta la pieza final.
 
-### 7.1. Modelado y Ensambles en SolidWorks
-<img src="../../imVS/corte_laser_sw.png" alt="Modelado en SolidWorks" width="70%">  
-*Figura 1: Vista general del diseño en SolidWorks para verificar la correcta alineación y el espacio entre piezas.*
+### 7.1. Modelado en Solid Works
+![Plano Zeppelin](../img/plano.jpeg)
+*Figura 1: Plano de piezas utilizadas en la figura del zeppelin, creado en Solid Works.*
 
 ---
 
-### 7.2. Preparación y Distribución de Vectores
-<img src="../../imVS/corte_laser_vector.png" alt="Anidado de piezas" width="70%">  
-*Figura 2: Organización y distribución eficiente de los trazos (anidado) en el plano para optimizar el uso del material.*
+### 7.2. Optimización de espacio
+![Optimización](../img/Optimizacion.jpeg)
+*Figura 2: Organización y distribución eficiente de las piezas para reducir la cantidad de material utilizado.*
 
 ---
 
-### 7.3. Operación de la Cortadora Láser CO₂
-<img src="../../imVS/corte_laser_maquina.png" alt="Cortadora láser en operación" width="70%">  
-*Figura 3: Funcionamiento de la máquina láser durante el proceso de corte con extracción de aire activa.*
-
+### 7.3. Operación de la Cortadora Láser
+![Configuración del programa](../img/Configuracion.jpeg)
+*Figura 3: Configuración de "Max Power, Min Power" y "Work Speed" utilizado para cortar la pieza en MDF.*
+![Proceso de ensamblaje](../img/Procesoensamblaje.jpeg)
+*Figura 4: Proceso de ensamblaje de figura de Zeppelin.*
+<video controls width="100%">
+<source src="../vid/Proceso.mp4" type="video/mp4">
+</video>
 ---
 
 ### 7.4. Resultado Final y Verificación Física
-<img src="../../imVS/corte_laser_resultado.JPG" alt="Ensambles terminados" width="70%">  
-*Figura 4: Piezas ya fabricadas en MDF/acrílico, probando el ajuste por fricción en las uniones de ensamble.*
+![Conexión](../img/Modelocompleto.jpeg)
+![Conexión](../img/Modelocompleto2.jpeg)
+*Figuras 5 y 6: Modelo ya ensamblado y completo.*
