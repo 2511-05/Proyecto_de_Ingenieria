@@ -89,6 +89,9 @@ Es fundamental asegurar firmemente el material a la cama de sacrificio mediante:
 
 ### 6.2 Simulación en Plataforma Digital (NC Viewer)
 Antes de enviar cualquier programa al router CNC físico, se validaron las trayectorias de maquinado en simuladores web como *NC Viewer* para verificar la ausencia de errores en las alturas de retracción ($Z$) y límites de área.
+![Código G](../img/codigog.jpeg)  
+*Figura 1: Código G utilizado en NC Viewer para formar una figura.* 
+
 
 #### Ejemplo: Trazo de Estrella de 5 Puntas
 ```gcode
@@ -123,50 +126,42 @@ La práctica impartida en Fab Lab Puebla por el Mtro. Oliver permitió comprende
 
 A continuación se presentan las evidencias visuales del proceso completo realizado en el Fab Lab Puebla (Ibero Puebla):
 
-### 8.1. Software CAD/CAM (VCarve Pro)
-<img src="../../imVS/cnc_vcarve.png" alt="Software VCarve Pro" width="70%">  
-*Figura 1: Software VCarve Pro utilizado para el diseño vectorial, configuración de trayectorias CAM y generación de los códigos de maquinado para los routers CNC.*
+### 8.1. Router CNC y Cama de Sacrificio
+![Cama de sacrificio](../img/tablasacrificio.jpeg)   
+*Figura 2: Lámina de material sobre la cama de sacrificio (tablero de madera inferior diseñado para recibir posibles sobrecortes o pasadas en profundidad de la fresa sin dañar la estructura metálica de la máquina).*
 
 ---
 
-### 8.2. Router CNC y Cama de Sacrificio
-<img src="../../imVS/cnc_maquina.jpg" alt="Router CNC y Cama de Sacrificio" width="70%">  
-*Figura 2: Vista general del Router CNC Asia Robótica Shop-1325 en el Fab Lab Puebla. Se aprecia la lámina de material sobre la cama de sacrificio (tablero de madera inferior diseñado para recibir posibles sobrecortes o pasadas en profundidad de la fresa sin dañar la estructura metálica de la máquina).*
+### 8.2. Cambio y Ajuste de Herramienta
+![Ajuste de fresa](../img/ajusteherramienta.jpeg)    
+*Figura 3: Procedimiento de cambio y apriete de la herramienta de corte para asegurar el correcto bloqueo del mandril (collet) y la fresa.*
 
 ---
 
-### 8.3. Cambio y Ajuste de Herramienta
-<img src="../../imVS/cnc_herramienta.jpg" alt="Cambio de herramienta" width="70%">  
-*Figura 3: Procedimiento de cambio y apriete de la herramienta de corte en el husillo empleando llaves ajustables para asegurar el correcto bloqueo del mandril (collet) y la fresa.*
-
----
-
-### 8.4. Consola de Control y Calibración (NK105)
-<img src="../../imVS/cnc_control.jpg" alt="Consola de Control NK105" width="70%">  
+### 8.3. Consola de Control y Calibración (NK105)
+![Consola de control](../img/consola.jpeg)  
 *Figura 4: Controlador portátil NK105 utilizado para el posicionamiento manual de los ejes (*Jog*), definición de ceros de pieza, calibración y supervisión de las coordenadas de trabajo ($X, Y, Z$).*
 
 ---
 
-### 8.5. Sistema de Extracción de Viruta y Polvo
-<img src="../../imVS/cnc_extraccion.jpg" alt="Sistema de extracción de polvo" width="70%">  
-*Figura 5: Operación del sistema de aspirado (*Vacuum Extractor*) mediante manguera flexible para la recolección continua de residuos y polvo fino durante el maquinado de polímeros y tableros.*
+### 8.4. Resultado primera práctica grupal 
+![Resultado](../img/muestrarouter.jpeg)    
+*Figura 5: Muestra de el proceso de corte de el router y resultado final de la práctica realizada en clase.*
 
 ---
 
-### 8.6. Segundo Corte: Proyecto Tortuga
-<img src="../../imVS/tortuga_2d.png" alt="Visualización 2D de la tortuga en VCarve Pro" width="70%">  
-*Figura 6a: Visualización en 2D del modelo de la tortuga en VCarve Pro.*
+### 8.5. Segundo Corte: Proyecto Mariposa
+![Mariposa 2D](../img/mariposa2d.jpeg)  width="70%">  
+*Figura 6a: Visualización en 2D del modelo de la mariposa en VCarve Pro.*
 
-<img src="../../imVS/tortuga_3d.png" alt="Visualización 3D de la tortuga en VCarve Pro" width="70%">  
-*Figura 6b: Visualización en 3D de la simulación de corte de la tortuga en VCarve Pro.*
+![Visualización Mariposa 3D](../img/mariposa3d.jpeg)  width="70%">  
+*Figura 6b: Visualización en 3D de la simulación de corte de la mariposa en VCarve Pro.*
 
-<img src="../../imVS/tortuga_resultado.jpg" alt="Resultado del corte en la máquina CNC" width="70%">  
-*Figura 6c: Resultado final del corte de la tortuga realizado en la máquina CNC.*
-
-[*Video del proceso de maquinado CNC*](../../imVS/video_cnc.mp4)
+![Proceso de corte Mariposa](../img/cortemariposa.jpeg)  width="70%">  
+*Figura 6c: Proceso de corte de la mariposa en la máquina CNC.*
 
 ---
 
 ## Descargas
 
-- 📦 [Descargar Modelo y Código G hecho en clase (.zip)](../../descargas/Modelo_GCode_Clase.zip)
+- 📦 [Descargar modelo Mariposa.crv (.zip)](../img/Mariposa.zip)
