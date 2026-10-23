@@ -101,3 +101,5 @@ A continuación se muestran los registros gráficos capturados durante la práct
 ![Conexión](../img/Modelocompleto.jpeg)
 ![Conexión](../img/Modelocompleto2.jpeg)
 *Figuras 5 y 6: Modelo ya ensamblado y completo.*
+
+[ Descargar archivos las piezas del Zeppelin (.zip)](../img/ArchivosPractica1.zip)
