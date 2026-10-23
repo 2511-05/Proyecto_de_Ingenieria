@@ -93,20 +93,20 @@ A continuación se presentan las evidencias fotográficas recabadas durante la s
 ---
 
 ### 8.2. Conexión de Seguridad Eléctrica
-<img src="../../imVS/IMG_9383.jpeg" alt="Conexión eléctrica de la máquina" width="70%">  
+![Conexión](../img/Conexion.jpeg)
 *Figura 2: Proceso de conexión de la clavija industrial a la toma eléctrica autorizada del taller, utilizando guantes de protección en todo momento.*
 
 ---
 
 ### 8.3. Material de practica ya soldado
-<img src="../../imVS/IMG_9384.jpeg" alt="Máquina de soldar y cableado" width="70%">  
+![Material soldado](../img/Soldado.jpeg) 
 *Figura 3: Material que fue utilizado durante la practica de soldadura.*
 
 ---
 
 ### 8.4. Cortadora de metal
-<img src="../../imVS/Soldadura.JPG" alt="Piezas unidas por soldadura de arco" width="70%">  
+![Cortadora](../img/Cortador.jpeg) 
 *Figura 4: Maquina utilizada para la practica de corte de perfiles metalicos.*
 
-<img src="../../imVS/IMG_9375.jpeg" alt="Medición y ensamble de tubos perfil cuadrado" width="70%">  
+![Perfiles cortados](../img/Perfilescortados.jpeg)
 *Figura 5: Perfiles metalicos ya cortados.*
