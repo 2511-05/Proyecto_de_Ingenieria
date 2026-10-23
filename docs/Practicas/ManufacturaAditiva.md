@@ -81,9 +81,8 @@ Los mecanismos *Print-in-Place* (impresos en su lugar) permiten fabricar ensambl
 
 | Proceso | Inconveniente Detectado | Motivo Raíz | Acción Correctiva Aplicada |
 | :--- | :--- | :--- | :--- |
-| **Impresión en ABS** | Las esquinas de la pieza se levantaron y desprendieron de la cama (*warping*). | Enfriamiento rápido debido a corrientes de aire frío externas en el laboratorio. | Cerrar la puerta de la cabina de la Sindoh/Stratasys, aplicar adhesivo y subir la temperatura de la cama. |
-| **Impresión en TPU** | El filamento se atascó y dobló dentro del extrusor tipo *Bowden*. | Velocidad de impresión demasiado alta y flexibilidad excesiva del material en el tubo guía. | Reducir drásticamente la velocidad de impresión y ajustar la tensión del extrusor. |
-| **Ensambles móviles** | Las piezas móviles de un mecanismo impreso quedaron completamente soldadas. | Distancia de holgura (*clearance*) insuficiente entre los cuerpos sólidos en el diseño CAD. | Incrementar la separación dimensional a $0.3\text{ mm}$ en las tolerancias de contacto dentro de SolidWorks. |
+| **Impresión en ABS** | La articulación tenia alta probabilidad de romperse. | La previsualización mostraba que al imprimirse a esa escala la pieza iba a ser muy delgada. | Escalar la pieza para hacerla mas resistente. |
+| **Ensambles móviles** | Algunas partes moviles se atoraban. | Los "arboles" se quedaban atascados al intentar quitarlos. | Utilizar pinzas mas delgadas para removerlos completamente. |
 
 ---
 
@@ -97,22 +96,23 @@ Esta sesión permitió comprender a detalle las ventajas operativas y las limita
 
 A continuación se muestran los registros gráficos recopilados durante la práctica de impresión 3D en las instalaciones del FabLab Puebla de la Ibero Puebla.
 
-### 8.1. Configuración de Parámetros en el Software de Laminado (*Slicer*)
-![Configuración del programa](../img/Sketch.jpeg)  
-*Figura 1: Vista previa del proceso de laminado (*slicing*), mostrando las trayectorias de relleno, paredes y estructuras de soporte.*
-![Configuración del programa](../img/Articulacion.jpeg)  
-*Figura 1: Vista previa del proceso de laminado (*slicing*), mostrando las trayectorias de relleno, paredes y estructuras de soporte.*
+### 8.1. Creación del modelo 3D (*Slicer*)
+![Inicio del prototipado](../img/Sketch.jpeg)  
+*Figura 1: Inicio de las piezas y el sketch del modelo 3D del Enderman.*
+![Articulación del modelo 3D](../img/Articulacion.jpeg)  
+*Figura 2: Parte de una de las articulaciones utilizadas en el modelo 3D.*
 
 ---
 
 ### 8.2. Proceso de Impresión FDM en Operación
-![Configuración del programa](../img/Procesoimpresion.jpeg) 
-*Figura 2: Deposición de la primera capa de material termoplástico sobre la superficie de impresión nivelada.*
+![Proceso de Impresión](../img/Procesoimpresion.jpeg) 
+*Figura 4: Proceso de impresion del modelo 3D del Enderman.*
 
 ---
 
 ### 8.3. Mecanismo Print-in-Place Finalizado
-![Configuración del programa](../img/Enderman.jpeg)  
-*Figura 3: Resultado del mecanismo articulado fabricado en una sola pieza, comprobando la movilidad y el espacio libre entre eslabones.*
+![Pieza Finalizada](../img/Enderman.jpeg)  
+*Figura 5: Pieza articulada finalizada y completamente funcional.*
+[Descargar archivo Enderman.SLDPRT (.zip)](../img/Enderman.zip)
 
 ```
