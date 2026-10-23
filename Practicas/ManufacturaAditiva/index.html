@@ -1,0 +1,1045 @@
+
+<!doctype html>
+<html lang="es" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="prev" href="../Clase2/">
+      
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.7">
+    
+    
+      
+        <title>Manufactura Aditiva - Proyecto de Ingeniería</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.ec1eaa64.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="purple" data-md-color-accent="deep-purple">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#manufactura-aditiva-e-impresion-3d" class="md-skip">
+          Saltar a contenido
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Cabecera">
+    <a href="../.." title="Proyecto de Ingeniería" class="md-header__button md-logo" aria-label="Proyecto de Ingeniería" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            Proyecto de Ingeniería
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Manufactura Aditiva
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Búsqueda" placeholder="Búsqueda" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Buscar">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Limpiar" aria-label="Limpiar" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Inicializando búsqueda
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navegación" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Proyecto de Ingeniería" class="md-nav__button md-logo" aria-label="Proyecto de Ingeniería" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    Proyecto de Ingeniería
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Inicio
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Prácticas
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Prácticas
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Practica1/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Práctica 1
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../Clase2/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Clase 2
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manufactura Aditiva
+  
+
+    
+  </span>
+  
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Manufactura Aditiva
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduccion-a-las-tecnologias-de-manufactura-aditiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introducción a las Tecnologías de Manufactura Aditiva
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introducción a las Tecnologías de Manufactura Aditiva">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clasificacion-de-tecnologias-de-impresion-3d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clasificación de Tecnologías de Impresión 3D
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-capacidad-operativa-en-fablab-puebla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Capacidad Operativa en FabLab Puebla
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Capacidad Operativa en FabLab Puebla">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inventario-de-equipos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inventario de Equipos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-guia-de-materiales-para-impresion-fdm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Guía de Materiales para Impresión FDM
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Guía de Materiales para Impresión FDM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-seleccion-ventajas-y-requerimientos-de-hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criterios de Selección (Ventajas y Requerimientos de Hardware)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-reglas-de-diseno-para-manufactura-aditiva-dfam" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Reglas de Diseño para Manufactura Aditiva (DfAM)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-caso-de-estudio-mecanismo-print-in-place-en-solidworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Caso de Estudio: Mecanismo Print-in-Place en SolidWorks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Caso de Estudio: Mecanismo Print-in-Place en SolidWorks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analisis-tecnico-del-diseno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análisis Técnico del Diseño
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-bitacora-de-fallas-y-diagnosticos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Bitácora de Fallas y Diagnósticos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-aprendizajes-del-taller" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Aprendizajes del Taller
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-anexos-y-evidencia-fotografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Anexos y Evidencia Fotográfica
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Anexos y Evidencia Fotográfica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81-configuracion-de-parametros-en-el-software-de-laminado-slicer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1. Configuración de Parámetros en el Software de Laminado (Slicer)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-proceso-de-impresion-fdm-en-operacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2. Proceso de Impresión FDM en Operación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83-mecanismo-print-in-place-finalizado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3. Mecanismo Print-in-Place Finalizado
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Tabla de contenidos">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Tabla de contenidos
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#1-introduccion-a-las-tecnologias-de-manufactura-aditiva" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        1. Introducción a las Tecnologías de Manufactura Aditiva
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="1. Introducción a las Tecnologías de Manufactura Aditiva">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#clasificacion-de-tecnologias-de-impresion-3d" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Clasificación de Tecnologías de Impresión 3D
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#2-capacidad-operativa-en-fablab-puebla" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        2. Capacidad Operativa en FabLab Puebla
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="2. Capacidad Operativa en FabLab Puebla">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#inventario-de-equipos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Inventario de Equipos
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#3-guia-de-materiales-para-impresion-fdm" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        3. Guía de Materiales para Impresión FDM
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="3. Guía de Materiales para Impresión FDM">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#criterios-de-seleccion-ventajas-y-requerimientos-de-hardware" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Criterios de Selección (Ventajas y Requerimientos de Hardware)
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#4-reglas-de-diseno-para-manufactura-aditiva-dfam" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        4. Reglas de Diseño para Manufactura Aditiva (DfAM)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#5-caso-de-estudio-mecanismo-print-in-place-en-solidworks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        5. Caso de Estudio: Mecanismo Print-in-Place en SolidWorks
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="5. Caso de Estudio: Mecanismo Print-in-Place en SolidWorks">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#analisis-tecnico-del-diseno" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Análisis Técnico del Diseño
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#6-bitacora-de-fallas-y-diagnosticos" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        6. Bitácora de Fallas y Diagnósticos
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#7-aprendizajes-del-taller" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        7. Aprendizajes del Taller
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#8-anexos-y-evidencia-fotografica" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8. Anexos y Evidencia Fotográfica
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="8. Anexos y Evidencia Fotográfica">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#81-configuracion-de-parametros-en-el-software-de-laminado-slicer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.1. Configuración de Parámetros en el Software de Laminado (Slicer)
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#82-proceso-de-impresion-fdm-en-operacion" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.2. Proceso de Impresión FDM en Operación
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#83-mecanismo-print-in-place-finalizado" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        8.3. Mecanismo Print-in-Place Finalizado
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+
+<h1 id="manufactura-aditiva-e-impresion-3d">Manufactura Aditiva e Impresión 3D</h1>
+<p><strong>Institución:</strong> IBERO Puebla 
+<strong>Clase:</strong> Proyecto de Ingenieria I
+<strong>Fecha:</strong> 18 de Septiembre de 2026</p>
+<hr />
+<h2 id="1-introduccion-a-las-tecnologias-de-manufactura-aditiva">1. Introducción a las Tecnologías de Manufactura Aditiva</h2>
+<p>La manufactura aditiva abarca todos los procesos donde se fabrican objetos tridimensionales añadiendo material capa por capa a partir de un archivo digital CAD. A diferencia de los métodos sustractivos (como el maquinado CNC), la impresión 3D optimiza el uso de material y permite crear geometrías complejas que serían imposibles de fabricar de forma convencional.
+Aquí tienes el código completo en formato Markdown actualizado, incluyendo la lista extendida de las <strong>8 tecnologías de impresión 3D</strong> y el inventario detallado de los <strong>27 equipos del FabLab Puebla</strong>:</p>
+<hr />
+<h3 id="clasificacion-de-tecnologias-de-impresion-3d">Clasificación de Tecnologías de Impresión 3D</h3>
+<ul>
+<li><strong>Stereolithography (SLA):</strong> Emplea un láser UV para curar y solidificar resina fotopolimérica líquida capa por capa. Destaca por su alta precisión y acabado superficial liso.</li>
+<li><strong>Selective Laser Sintering (SLS):</strong> Utiliza un láser de alta potencia para fusionar pequeñas partículas de polvo termoplástico (generalmente nailon). No requiere estructuras de soporte debido a que el polvo no sinterizado actúa como sustento.</li>
+<li><strong>Fused Deposition Modeling (FDM):</strong> Es la tecnología más común. Extruye un filamento termoplástico a través de una boquilla caliente, depositando el material capa por capa sobre una plataforma.</li>
+<li><strong>Digital Light Processing (DLP):</strong> Similar a SLA, pero utiliza un proyector de luz digital para curar una capa completa de resina en un solo destello, aumentando significativamente la velocidad de impresión.</li>
+<li><strong>Multi Jet Fusion (MJF):</strong> Aplica agentes aglutinantes y de detalle sobre un lecho de polvo termoplástico, los cuales se activan con lámparas infrarrojas para fusionar el material.</li>
+<li><strong>PolyJet:</strong> Funciona de forma similar a una impresora de inyección de tinta, pulverizando fotopolímeros líquidos sobre una bandeja que se curan instantáneamente con luz UV.</li>
+<li><strong>Direct Metal Laser Sintering (DMLS):</strong> Tecnología para componentes metálicos que sinteriza polvo de metal utilizando un láser de fibra.</li>
+<li><strong>Electron Beam Melting (EBM):</strong> Utiliza un haz de electrones en un entorno de alto vacío para fundir polvo metálico, ideal para aplicaciones aeroespaciales y médicas.</li>
+</ul>
+<hr />
+<h2 id="2-capacidad-operativa-en-fablab-puebla">2. Capacidad Operativa en FabLab Puebla</h2>
+<p>El laboratorio FabLab Puebla cuenta con un parque industrial de <strong>27 impresoras 3D</strong>, enfocadas principalmente en las tecnologías FDM, SLA y MSLA/DLP.</p>
+<h3 id="inventario-de-equipos">Inventario de Equipos</h3>
+<ol>
+<li><strong>Ender 3 (14 unidades):</strong> Equipos FDM versátiles y económicos, ampliamente utilizados para prototipado rápido y pruebas conceptuales.</li>
+<li><strong>Sindoh 3DWOX (5 unidades):</strong> Impresoras FDM de cabina cerrada, optimizadas para el entorno educativo debido a su estabilidad térmica y seguridad.</li>
+<li><strong>Ultimaker 2+ (2 unidades):</strong> Impresoras FDM profesionales reconocidas por su fiabilidad y precisión en tolerancias dimensionales.</li>
+<li><strong>Elegoo Mars 3 (1 unidad):</strong> Impresora MSLA (Resina) ideal para piezas de dimensiones reducidas que requieren alta resolución.</li>
+<li><strong>Elegoo Saturn 2 (1 unidad):</strong> Impresora MSLA con volumen de impresión ampliado para lotes de producción o piezas de resina de mayor tamaño.</li>
+<li><strong>Anycubic Photon Mono M5S (1 unidad):</strong> Impresora MSLA de alta velocidad con pantalla monocromática de alta definición.</li>
+<li><strong>Formlabs Form 1 (1 unidad):</strong> Impresora SLA de grado profesional para prototipos de alta precisión geométrica.</li>
+<li><strong>ROSTOCK MAX™ V3 (1 unidad):</strong> Impresora FDM tipo Delta, caracterizada por su alta velocidad de desplazamiento y amplio volumen cilíndrico Z.</li>
+<li><strong>Stratasys (1 unidad):</strong> Equipo FDM industrial para aplicaciones avanzadas con materiales de grado de ingeniería.</li>
+</ol>
+<hr />
+<h2 id="3-guia-de-materiales-para-impresion-fdm">3. Guía de Materiales para Impresión FDM</h2>
+<h3 id="criterios-de-seleccion-ventajas-y-requerimientos-de-hardware">Criterios de Selección (Ventajas y Requerimientos de Hardware)</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Material</th>
+<th style="text-align: left;">Ventajas Principales</th>
+<th style="text-align: center;">Temperatura de Impresión</th>
+<th style="text-align: left;">Requerimientos de Hardware</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>PLA</strong></td>
+<td style="text-align: left;">Fácil de imprimir, baja deformación térmica, biodegradable.</td>
+<td style="text-align: center;">190°C – 210°C</td>
+<td style="text-align: left;">Cama fría o templada (50°C - 60°C).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>ABS</strong></td>
+<td style="text-align: left;">Mayor resistencia mecánica e impacto, soporta altas temperaturas.</td>
+<td style="text-align: center;">220°C – 250°C</td>
+<td style="text-align: left;">Cama caliente (90°C - 100°C) y espacio cerrado (evita <em>warping</em>).</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>PETG</strong></td>
+<td style="text-align: left;">Excelente tenacidad, resistencia química y flexibilidad moderada.</td>
+<td style="text-align: center;">230°C – 250°C</td>
+<td style="text-align: left;">Cama caliente (70°C - 80°C) y buena calibración de retracción.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>TPU (Flex)</strong></td>
+<td style="text-align: left;">Alta elasticidad, resistencia al desgaste y absorción de impactos.</td>
+<td style="text-align: center;">210°C – 230°C</td>
+<td style="text-align: left;">Extrusor de tracción directa (<em>direct drive</em>) recomendado.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="4-reglas-de-diseno-para-manufactura-aditiva-dfam">4. Reglas de Diseño para Manufactura Aditiva (DfAM)</h2>
+<p>Para asegurar el éxito en la impresión de piezas funcionales, se deben seguir principios específicos de diseño:
+1. <strong>Ángulo de Voladizo (<em>Overhangs</em>):</strong> Evitar ángulos mayores a <span class="arithmatex">\(45^{\circ}\)</span> respecto a la vertical sin el uso previo de estructuras de soporte.
+2. <strong>Tolerancias de Ensamble (<em>Clearance</em>):</strong> Dejar un espacio libre de al menos <span class="arithmatex">\(0.2\text{ mm}\)</span> a <span class="arithmatex">\(0.3\text{ mm}\)</span> entre piezas móviles o acopladas para evitar que se fusionen durante la extrusión.
+3. <strong>Orientación de la Pieza:</strong> Colocar la pieza en la plataforma de modo que las fuerzas mecánicas principales actúen a lo largo de las capas, no entre ellas (aprovechando la máxima resistencia del filamento).</p>
+<hr />
+<h2 id="5-caso-de-estudio-mecanismo-print-in-place-en-solidworks">5. Caso de Estudio: Mecanismo Print-in-Place en SolidWorks</h2>
+<h3 id="analisis-tecnico-del-diseno">Análisis Técnico del Diseño</h3>
+<p>Los mecanismos <em>Print-in-Place</em> (impresos en su lugar) permiten fabricar ensambles completos con partes móviles (como bisagras, engranajes planetarios o articulaciones) en una sola operación de impresión, eliminando la necesidad de armar componentes posteriores.</p>
+<ul>
+<li><strong>Espacios Libres:</strong> Se diseñaron holguras precisas en los ejes de giro para permitir el libre movimiento una vez que el plástico se enfría y contrae ligeramente.</li>
+<li><strong>Soportes Internos:</strong> Se configuró el laminador (<em>slicer</em>) para generar soportes fáciles de retirar sin bloquear las holguras mecánicas del mecanismo.</li>
+</ul>
+<hr />
+<h2 id="6-bitacora-de-fallas-y-diagnosticos">6. Bitácora de Fallas y Diagnósticos</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Proceso</th>
+<th style="text-align: left;">Inconveniente Detectado</th>
+<th style="text-align: left;">Motivo Raíz</th>
+<th style="text-align: left;">Acción Correctiva Aplicada</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>Impresión en ABS</strong></td>
+<td style="text-align: left;">Las esquinas de la pieza se levantaron y desprendieron de la cama (<em>warping</em>).</td>
+<td style="text-align: left;">Enfriamiento rápido debido a corrientes de aire frío externas en el laboratorio.</td>
+<td style="text-align: left;">Cerrar la puerta de la cabina de la Sindoh/Stratasys, aplicar adhesivo y subir la temperatura de la cama.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Impresión en TPU</strong></td>
+<td style="text-align: left;">El filamento se atascó y dobló dentro del extrusor tipo <em>Bowden</em>.</td>
+<td style="text-align: left;">Velocidad de impresión demasiado alta y flexibilidad excesiva del material en el tubo guía.</td>
+<td style="text-align: left;">Reducir drásticamente la velocidad de impresión y ajustar la tensión del extrusor.</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Ensambles móviles</strong></td>
+<td style="text-align: left;">Las piezas móviles de un mecanismo impreso quedaron completamente soldadas.</td>
+<td style="text-align: left;">Distancia de holgura (<em>clearance</em>) insuficiente entre los cuerpos sólidos en el diseño CAD.</td>
+<td style="text-align: left;">Incrementar la separación dimensional a <span class="arithmatex">\(0.3\text{ mm}\)</span> en las tolerancias de contacto dentro de SolidWorks.</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="7-aprendizajes-del-taller">7. Aprendizajes del Taller</h2>
+<p>Esta sesión permitió comprender a detalle las ventajas operativas y las limitantes físicas de la manufactura aditiva. Aprendimos a seleccionar el polímero idóneo en función de los esfuerzos mecánicos requeridos, a dominar los parámetros críticos del laminado (<em>slicer</em>) y a diseñar bajo los lineamientos de DfAM (Diseño para Manufactura Aditiva), logrando fabricar geometrías funcionales y mecanismos articulados con gran precisión en los equipos del FabLab Puebla.</p>
+<hr />
+<h2 id="8-anexos-y-evidencia-fotografica">8. Anexos y Evidencia Fotográfica</h2>
+<p>A continuación se muestran los registros gráficos recopilados durante la práctica de impresión 3D en las instalaciones del FabLab Puebla de la Ibero Puebla.</p>
+<h3 id="81-configuracion-de-parametros-en-el-software-de-laminado-slicer">8.1. Configuración de Parámetros en el Software de Laminado (<em>Slicer</em>)</h3>
+<p><img src="../../imVS/impresion_slicer.png" alt="Configuración de laminado 3D" width="70%"><br />
+<em>Figura 1: Vista previa del proceso de laminado (</em>slicing<em>), mostrando las trayectorias de relleno, paredes y estructuras de soporte.</em></p>
+<hr />
+<h3 id="82-proceso-de-impresion-fdm-en-operacion">8.2. Proceso de Impresión FDM en Operación</h3>
+<p><img src="../../imVS/impresion_maquina.JPG" alt="Impresora 3D trabajando" width="70%"><br />
+<em>Figura 2: Deposición de la primera capa de material termoplástico sobre la superficie de impresión nivelada.</em></p>
+<hr />
+<h3 id="83-mecanismo-print-in-place-finalizado">8.3. Mecanismo Print-in-Place Finalizado</h3>
+<p><img src="../../imVS/impresion_resultado.JPG" alt="Pieza impresa terminada" width="70%"><br />
+<em>Figura 3: Resultado del mecanismo articulado fabricado en una sola pieza, comprobando la movilidad y el espacio libre entre eslabones.</em></p>
+<p>```</p>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": [], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copiado al portapapeles", "clipboard.copy": "Copiar al portapapeles", "search.result.more.one": "1 m\u00e1s en esta p\u00e1gina", "search.result.more.other": "# m\u00e1s en esta p\u00e1gina", "search.result.none": "No se encontraron documentos", "search.result.one": "1 documento encontrado", "search.result.other": "# documentos encontrados", "search.result.placeholder": "Teclee para comenzar b\u00fasqueda", "search.result.term.missing": "Falta", "select.version": "Seleccionar versi\u00f3n"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.d7400e89.min.js"></script>
+      
+        <script src="../../javascripts/mathjax.js"></script>
+      
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+      
+    
+  </body>
+</html>
