@@ -87,7 +87,7 @@ Durante esta práctica comprendimos la importancia de cumplir adecuadamente con 
 A continuación se presentan las evidencias fotográficas recabadas durante la sesión, donde se observa el equipo de protección utilizado, las herramientas empleadas y las piezas soldadas.
 
 ### 8.1. Equipo de Protección Personal (EPP)
-![Equipo de protección](../../img/Equipoproteccion.jpeg)
+![Equipo de protección](../img/Equipoproteccion.jpeg)
 *Figura 1: Estudiante equipada con la vestimenta requerida: careta para soldar Truper, bata/overol, pechera de cuero y guantes de carnaza.*
 
 ---
