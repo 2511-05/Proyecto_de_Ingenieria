@@ -551,10 +551,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#81-configuracion-de-parametros-en-el-software-de-laminado-slicer" class="md-nav__link">
+  <a href="#81-creacion-del-modelo-3d-slicer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        8.1. Configuración de Parámetros en el Software de Laminado (Slicer)
+        8.1. Creación del modelo 3D (Slicer)
       
     </span>
   </a>
@@ -788,10 +788,10 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#81-configuracion-de-parametros-en-el-software-de-laminado-slicer" class="md-nav__link">
+  <a href="#81-creacion-del-modelo-3d-slicer" class="md-nav__link">
     <span class="md-ellipsis">
       
-        8.1. Configuración de Parámetros en el Software de Laminado (Slicer)
+        8.1. Creación del modelo 3D (Slicer)
       
     </span>
   </a>
@@ -944,21 +944,15 @@ Aquí tienes el código completo en formato Markdown actualizado, incluyendo la 
 <tbody>
 <tr>
 <td style="text-align: left;"><strong>Impresión en ABS</strong></td>
-<td style="text-align: left;">Las esquinas de la pieza se levantaron y desprendieron de la cama (<em>warping</em>).</td>
-<td style="text-align: left;">Enfriamiento rápido debido a corrientes de aire frío externas en el laboratorio.</td>
-<td style="text-align: left;">Cerrar la puerta de la cabina de la Sindoh/Stratasys, aplicar adhesivo y subir la temperatura de la cama.</td>
-</tr>
-<tr>
-<td style="text-align: left;"><strong>Impresión en TPU</strong></td>
-<td style="text-align: left;">El filamento se atascó y dobló dentro del extrusor tipo <em>Bowden</em>.</td>
-<td style="text-align: left;">Velocidad de impresión demasiado alta y flexibilidad excesiva del material en el tubo guía.</td>
-<td style="text-align: left;">Reducir drásticamente la velocidad de impresión y ajustar la tensión del extrusor.</td>
+<td style="text-align: left;">La articulación tenia alta probabilidad de romperse.</td>
+<td style="text-align: left;">La previsualización mostraba que al imprimirse a esa escala la pieza iba a ser muy delgada.</td>
+<td style="text-align: left;">Escalar la pieza para hacerla mas resistente.</td>
 </tr>
 <tr>
 <td style="text-align: left;"><strong>Ensambles móviles</strong></td>
-<td style="text-align: left;">Las piezas móviles de un mecanismo impreso quedaron completamente soldadas.</td>
-<td style="text-align: left;">Distancia de holgura (<em>clearance</em>) insuficiente entre los cuerpos sólidos en el diseño CAD.</td>
-<td style="text-align: left;">Incrementar la separación dimensional a <span class="arithmatex">\(0.3\text{ mm}\)</span> en las tolerancias de contacto dentro de SolidWorks.</td>
+<td style="text-align: left;">Algunas partes moviles se atoraban.</td>
+<td style="text-align: left;">Los "arboles" se quedaban atascados al intentar quitarlos.</td>
+<td style="text-align: left;">Utilizar pinzas mas delgadas para removerlos completamente.</td>
 </tr>
 </tbody>
 </table>
@@ -968,19 +962,20 @@ Aquí tienes el código completo en formato Markdown actualizado, incluyendo la 
 <hr />
 <h2 id="8-anexos-y-evidencia-fotografica">8. Anexos y Evidencia Fotográfica</h2>
 <p>A continuación se muestran los registros gráficos recopilados durante la práctica de impresión 3D en las instalaciones del FabLab Puebla de la Ibero Puebla.</p>
-<h3 id="81-configuracion-de-parametros-en-el-software-de-laminado-slicer">8.1. Configuración de Parámetros en el Software de Laminado (<em>Slicer</em>)</h3>
-<p><img alt="Configuración del programa" src="../../img/Sketch.jpeg" /><br />
-<em>Figura 1: Vista previa del proceso de laminado (</em>slicing<em>), mostrando las trayectorias de relleno, paredes y estructuras de soporte.</em>
-<img alt="Configuración del programa" src="../../img/Articulacion.jpeg" /><br />
-<em>Figura 1: Vista previa del proceso de laminado (</em>slicing<em>), mostrando las trayectorias de relleno, paredes y estructuras de soporte.</em></p>
+<h3 id="81-creacion-del-modelo-3d-slicer">8.1. Creación del modelo 3D (<em>Slicer</em>)</h3>
+<p><img alt="Inicio del prototipado" src="../../img/Sketch.jpeg" /><br />
+<em>Figura 1: Inicio de las piezas y el sketch del modelo 3D del Enderman.</em>
+<img alt="Articulación del modelo 3D" src="../../img/Articulacion.jpeg" /><br />
+<em>Figura 2: Parte de una de las articulaciones utilizadas en el modelo 3D.</em></p>
 <hr />
 <h3 id="82-proceso-de-impresion-fdm-en-operacion">8.2. Proceso de Impresión FDM en Operación</h3>
-<p><img alt="Configuración del programa" src="../../img/Procesoimpresion.jpeg" /> 
-<em>Figura 2: Deposición de la primera capa de material termoplástico sobre la superficie de impresión nivelada.</em></p>
+<p><img alt="Proceso de Impresión" src="../../img/Procesoimpresion.jpeg" /> 
+<em>Figura 4: Proceso de impresion del modelo 3D del Enderman.</em></p>
 <hr />
 <h3 id="83-mecanismo-print-in-place-finalizado">8.3. Mecanismo Print-in-Place Finalizado</h3>
-<p><img alt="Configuración del programa" src="../../img/Enderman.jpeg" /><br />
-<em>Figura 3: Resultado del mecanismo articulado fabricado en una sola pieza, comprobando la movilidad y el espacio libre entre eslabones.</em></p>
+<p><img alt="Pieza Finalizada" src="../../img/Enderman.jpeg" /><br />
+<em>Figura 5: Pieza articulada finalizada y completamente funcional.</em>
+<a href="../../img/Enderman.zip">Descargar archivo Enderman.SLDPRT (.zip)</a></p>
 <p>```</p>
 
 
